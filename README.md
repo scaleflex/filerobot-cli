@@ -259,6 +259,7 @@ dirs=(/test /); for i in ${dirs[*]}; do filerobot list $i --limit=100 --offset=0
 #### create text file (uuids.txt) that you want to inspect array of files uuids
   
 - uuids.txt:
+
 ```bash
 8bf63d53-f867-5b11-bcf9-7b4f13f50000
 b6f4609b-6036-554f-b5e6-efa110f50001
