@@ -98,7 +98,7 @@ Config command is used to set token and key provided by Scaleflex, needed for us
 #### Examples
 
 ```bash
-filerobot config --token=fusqadtm --key=bf72d18393ea40d5b4fccd9fb83806fa
+filerobot config --token=mytoken --key=mysupersecretkey
 ```
 
 ### Upload
