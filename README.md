@@ -1,4 +1,4 @@
-[![Release](https://img.shields.io/badge/release-v1.0-blue.svg)](https://github.com/scaleflex/filerobot-uploader/releases)
+[![Release](https://img.shields.io/badge/release-v1.0.0-blue.svg)](https://github.com/scaleflex/filerobot-uploader/releases)
 [![Free plan](https://img.shields.io/badge/price-includes%20free%20plan-green.svg)](https://www.filerobot.com/en/home#2de3fb9f-dd4a-457a-999a-025ad9bd5f3b)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)](#contributing)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
@@ -20,13 +20,50 @@
 This CLI provides all the functionality of the Filerobot and all of it's APIs.
 
 <p align="center">
-	<a href="https://scaleflex.github.io/filerobot-uploader/" target="_blank">
 		<img
-			width="800"
-			alt="The Lounge"
+			width="600"
+			alt="Filerobot CLI help"
 			src="https://scaleflex.airstore.io/filerobot/cli/config.png?sanitize=true">
-	</a>
 </p>
 
 
 ## Introduction
+
+The purpose of the Command Line Interface is to provide a simple way of using the Filerobot APIs programmatically.
+
+## Installation
+
+### macOS 
+```bash
+sudo curl -L "https://github.com/scaleflex/filerobot-cli/releases/download/1.0/filerobot-cli-darwin-x86_64" -o /usr/local/bin/filerobot && chmod +x /usr/local/bin/filerobot
+```
+
+### Linux 
+```bash
+sudo curl -L "https://github.com/scaleflex/filerobot-cli/releases/download/1.0/filerobot-cli-linux-x86_64" -o /usr/local/bin/filerobot && chmod +x /usr/local/bin/filerobot
+```
+
+Verify that installation works with:
+```bash
+filerobot version 
+```
+
+## Quick Start
+
+```bash
+# Set up your credetentials
+filerobot config --token=mytoken --key=mysupersecretkey
+
+# Enter into a directory and upload a file
+filerobot upload face.png
+
+# List a specific folder from Filerobot
+filerobot list /test
+
+# Inspect a specific resource
+filerobot inspect bb1ce06f-2677-581a-85e7-28c00ec50000
+```
+
+## Commands
+
+## Advanced usage
