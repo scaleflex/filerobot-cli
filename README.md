@@ -1,2 +1,5 @@
-# filerobot-cli
-A CLI for interacting with Filerobot Digital Asset Management.
+# Filerobot CLI
+
+This CLI (Command Line Interface) provides all the functionality of the Filerobot and all of it's APIs
+
+## Introduction
