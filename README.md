@@ -78,6 +78,8 @@ filerobot inspect bb1ce06f-2677-581a-85e7-28c00ec50000
 ```
 
 ## Commands
+This section provides a general overview and example of the main commands.
+
 You can check the list of all commands with:
 ```bash
 filerobot --help
@@ -88,7 +90,7 @@ If you want to see a specific help message and instructions for a specific comma
 filerobot upload --help
 ```
 
-### Config
+### ✔ config
 Config command is used to set token and key provided by Scaleflex, needed for using Filerobot CLI.
 
 #### Flags
@@ -101,7 +103,7 @@ Config command is used to set token and key provided by Scaleflex, needed for us
 filerobot config --token=mytoken --key=mysupersecretkey
 ```
 
-### Upload
+### ✔ upload
 Upload command is used to upload file to the Filerobot store. There are two types of uploading with POST and PUT requests.
 
 #### Arguments
@@ -126,7 +128,7 @@ filerobot upload face.png --method=PUT
 filerobot upload face.png --method=PUT --folder=/test
 ```
 
-### List
+### ✔ list
 List command is used to list all files and directories from the Filerobot store.
 
 #### Arguments
@@ -150,7 +152,7 @@ filerobot list /docs --limit=150 --offset=0
 filerobot list /docs --limit=500
 ```
 
-### Inspect
+### ✔ inspect
 Inspect command is used to list information about given file by uuid
 
 #### Arguments
@@ -162,7 +164,7 @@ Inspect command is used to list information about given file by uuid
 filerobot inspect bb1ce06f-2677-581a-85e7-28c00ec50000
 ```
 
-### Download
+### ✔ download
 Download command is used to download file by uuid or filepath
 
 #### Arguments
@@ -181,7 +183,7 @@ filerobot download docs/boat.jpg --type=filepath
 filerobot download bb1ce06f-2677-581a-85e7-28c00ec50000
 ```
 
-### Move
+### ✔ move
 Move command is used to move file to new directory(if not exist, it will be created)
 
 #### Arguments
@@ -197,7 +199,7 @@ Move command is used to move file to new directory(if not exist, it will be crea
 filerobot move 5b12134e-70c6-5bd8-b49c-6264a08de5d7 /hello/world
 ```
 
-### Rename
+### ✔ rename
 Rename command is used to rename given file by uuid
 
 #### Arguments
@@ -217,7 +219,7 @@ filerobot rename bb1ce06f-2677-581a-85e7-28c00ec50000
 filerobot rename bb1ce06f-2677-581a-85e7-28c00ec50000 --name=new_filename.jpg
 ```
 
-### Delete
+### ✔ delete
 Delete command is used to delete file by given uuid
 
 #### Arguments
@@ -229,7 +231,7 @@ Delete command is used to delete file by given uuid
 filerobot delete 22e8155e-4bdc-5476-9a0b-dbb09e750000
 ```
 
-### Version
+### ✔ version
 Print the version number of Filerobot CLI
 
 #### Examples
