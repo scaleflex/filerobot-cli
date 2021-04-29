@@ -266,6 +266,7 @@ dirs=(/test /); for i in ${dirs[*]}; do filerobot list $i --limit=100 --offset=0
 8bf63d53-f867-5b11-bcf9-7b4f13f50000
 b6f4609b-6036-554f-b5e6-efa110f50001
 3b6630bd-20a9-5813-8ece-b431bc250003
+m26300bm-k872-57n1-8kl1-g831bc251234
 ```
 ```bash
 file="uuids.txt"; while IFS=: read -r line; do filerobot inspect $line; done <"$file"
