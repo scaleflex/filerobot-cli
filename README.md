@@ -48,12 +48,12 @@ Where "--method" is flag.
 
 ### macOS 
 ```bash
-sudo curl -L "https://github.com/scaleflex/filerobot-cli/releases/download/1.0/filerobot-cli-darwin-x86_64" -o /usr/local/bin/filerobot && sudo chmod +x /usr/local/bin/filerobot
+sudo curl -L "https://github.com/scaleflex/filerobot-cli/releases/download/latest/filerobot-cli-darwin-x86_64" -o /usr/local/bin/filerobot && sudo chmod +x /usr/local/bin/filerobot
 ```
 
 ### Linux 
 ```bash
-sudo curl -L "https://github.com/scaleflex/filerobot-cli/releases/download/1.0/filerobot-cli-linux-x86_64" -o /usr/local/bin/filerobot && sudo chmod +x /usr/local/bin/filerobot
+sudo curl -L "https://github.com/scaleflex/filerobot-cli/releases/download/latest/filerobot-cli-linux-x86_64" -o /usr/local/bin/filerobot && sudo chmod +x /usr/local/bin/filerobot
 ```
 
 Verify that installation works with:
