@@ -33,7 +33,8 @@ The purpose of the Command Line Interface is to provide a simple way of using th
 
 An example of argument of command:
 ```bash
-filerobot upload filename.png
+
+filename.png
 ```
 Where "filename.png" is an argument.
 
@@ -48,12 +49,12 @@ Where "--method" is flag.
 
 ### macOS 
 ```bash
-sudo curl -L "https://github.com/scaleflex/filerobot-cli/releases/download/1.0.0/filerobot-cli-darwin-x86_64" -o /usr/local/bin/filerobot && sudo chmod +x /usr/local/bin/filerobot
+sudo curl -L "https://github.com/scaleflex/filerobot-cli/releases/download/1.1/filerobot-cli-darwin-x86_64" -o /usr/local/bin/filerobot && sudo chmod +x /usr/local/bin/filerobot
 ```
 
 ### Linux 
 ```bash
-sudo curl -L "https://github.com/scaleflex/filerobot-cli/releases/download/1.0.0/filerobot-cli-linux-x86_64" -o /usr/local/bin/filerobot && sudo chmod +x /usr/local/bin/filerobot
+sudo curl -L "https://github.com/scaleflex/filerobot-cli/releases/download/1.1/filerobot-cli-linux-x86_64" -o /usr/local/bin/filerobot && sudo chmod +x /usr/local/bin/filerobot
 ```
 
 Verify that installation works with:
@@ -126,6 +127,10 @@ filerobot upload face.png --method=PUT
 
 ```bash
 filerobot upload face.png --method=PUT --folder=/test
+```
+
+```bash
+filerobot upload https://image.com, -m URL -f /test --info metadata --tags tag1
 ```
 
 ### ✔ list
