@@ -63,13 +63,13 @@ If you want to add a different name of the command, you need to make an alias in
 For example:
 
 MacOS:
-Go into ~/.zshrc file and copy this command:
+- Go into ~/.zshrc file and copy this command:
 ```bash
 alias frb="/usr/local/bin/filerobot"
 ```
 
 Linux:
-Go into ~/.bashrc file and copy this command:
+- Go into ~/.bashrc file and copy this command:
 ```bash
 alias frb="/usr/local/bin/filerobot"
 ```
