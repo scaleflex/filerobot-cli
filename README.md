@@ -57,6 +57,18 @@ sudo curl -L "https://github.com/scaleflex/filerobot-cli/releases/download/1.1/f
 sudo curl -L "https://github.com/scaleflex/filerobot-cli/releases/download/1.1/filerobot-cli-linux-x86_64" -o /usr/local/bin/filerobot && sudo chmod +x /usr/local/bin/filerobot
 ```
 
+To create *frb* alias:
+
+### macOS 
+```bash
+sudo curl -L "https://github.com/scaleflex/filerobot-cli/releases/download/1.1/filerobot-cli-darwin-x86_64" -o /usr/local/bin/frb && sudo chmod +x /usr/local/bin/filerobot
+```
+
+### Linux 
+```bash
+sudo curl -L "https://github.com/scaleflex/filerobot-cli/releases/download/1.1/filerobot-cli-linux-x86_64" -o /usr/local/bin/frb && sudo chmod +x /usr/local/bin/filerobot
+```
+
 Verify that installation works with:
 ```bash
 filerobot version 
