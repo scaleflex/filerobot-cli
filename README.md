@@ -57,16 +57,21 @@ sudo curl -L "https://github.com/scaleflex/filerobot-cli/releases/download/1.1/f
 sudo curl -L "https://github.com/scaleflex/filerobot-cli/releases/download/1.1/filerobot-cli-linux-x86_64" -o /usr/local/bin/filerobot && sudo chmod +x /usr/local/bin/filerobot
 ```
 
-### Create *frb* alias:
+## Alias
 
-### macOS 
+If you want to add a different name of the command, you need to make an alias in your terminal profile, pointing to the executable file.
+For example:
+
+MacOS:
+Go into ~/.zshrc file and copy this command:
 ```bash
-sudo curl -L "https://github.com/scaleflex/filerobot-cli/releases/download/1.1/filerobot-cli-darwin-x86_64" -o /usr/local/bin/frb && sudo chmod +x /usr/local/bin/frb
+alias frb="/usr/local/bin/filerobot"
 ```
 
-### Linux 
+Linux:
+Go into ~/.bashrc file and copy this command:
 ```bash
-sudo curl -L "https://github.com/scaleflex/filerobot-cli/releases/download/1.1/filerobot-cli-linux-x86_64" -o /usr/local/bin/frb && sudo chmod +x /usr/local/bin/frb
+alias frb="/usr/local/bin/filerobot"
 ```
 
 Verify that installation works with:
