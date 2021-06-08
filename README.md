@@ -49,12 +49,12 @@ Where "--method" is flag.
 
 ### macOS 
 ```bash
-sudo curl -L "https://github.com/scaleflex/filerobot-cli/releases/download/1.1/filerobot-cli-darwin-x86_64" -o /usr/local/bin/filerobot && sudo chmod +x /usr/local/bin/filerobot
+sudo curl -L "https://github.com/scaleflex/filerobot-cli/releases/download/1.2.0/filerobot-cli-darwin-x86_64" -o /usr/local/bin/filerobot && sudo chmod +x /usr/local/bin/filerobot
 ```
 
 ### Linux 
 ```bash
-sudo curl -L "https://github.com/scaleflex/filerobot-cli/releases/download/1.1/filerobot-cli-linux-x86_64" -o /usr/local/bin/filerobot && sudo chmod +x /usr/local/bin/filerobot
+sudo curl -L "https://github.com/scaleflex/filerobot-cli/releases/download/1.2.0/filerobot-cli-linux-x86_64" -o /usr/local/bin/filerobot && sudo chmod +x /usr/local/bin/filerobot
 ```
 
 ## Alias
@@ -147,7 +147,7 @@ filerobot upload face.png --method=PUT --folder=/test
 ```
 
 ```bash
-filerobot upload https://image.com, -m URL -f /test --info metadata --tags tag1
+filerobot upload https://image.com -m URL -f /test --info '{"key", "value"}' --tags 'tag1, tag2, tag3'
 ```
 
 ### ✔ list
