@@ -147,7 +147,7 @@ filerobot upload face.png --method=PUT --folder=/test
 ```
 
 ```bash
-filerobot upload http://sample.li/boat.jpg -m URL -f /test --info '{"key", "value"}' --tags 'tag1, tag2, tag3'
+filerobot upload http://sample.li/boat.jpg -m URL -f /test --info '{"key": "value"}' --tags 'tag1, tag2, tag3'
 ```
 
 ### ✔ list
