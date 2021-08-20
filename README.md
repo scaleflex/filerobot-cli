@@ -160,6 +160,9 @@ List command is used to list all files and directories from the Filerobot store.
   - limit - The number of files and directories that will be listed. The range of limit is between 0 and 4000 (default 100).
   - offset - The number of offset (default 0).
 
+**Note:** if you have directory or file that contains special characters, they need to be encoded.
+Example folder named - `Crispy Menu` must be passed like this - `filerobot list Crispy%20Menu`
+
 #### Examples
 
 ```bash
@@ -173,6 +176,7 @@ filerobot list /docs --limit=150 --offset=0
 ```bash
 filerobot list /docs --limit=500
 ```
+*Note*
 
 ### ✔ inspect
 Inspect command is used to list information about given file by uuid
@@ -200,9 +204,14 @@ Download command is used to download file by uuid or filepath
 ```bash
 filerobot download docs/boat.jpg --type=filepath
 ```
-    
+
 ```bash
 filerobot download bb1ce06f-2677-581a-85e7-28c00ec50000
+```
+
+- Download folder
+```bash
+filerobot download 907e26a8-4f62-58ca-8014-17aed514d84e
 ```
 
 ### ✔ move
