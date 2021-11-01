@@ -305,7 +305,7 @@ filerobot product list
 ```
 
 ```bash
-filerobot product assets [product referrence]
+filerobot product list assets [product referrence]
 ```
 
 ```bash
