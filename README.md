@@ -1,3 +1,11 @@
+✨ New features and improvements
+
+- added possibility to append product information per upload;
+- implemented product API endpoints;
+🔴 Bug fixes
+
+- fixed info and tags format for upload command;
+
 [![Release](https://img.shields.io/badge/release-v1.0-blue.svg)](https://github.com/scaleflex/filerobot-uploader/releases)
 [![Free plan](https://img.shields.io/badge/price-includes%20free%20plan-green.svg)](https://www.filerobot.com/en/home#2de3fb9f-dd4a-457a-999a-025ad9bd5f3b)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)](#contributing)
@@ -281,6 +289,27 @@ filerobot --version
 
 ```bash
 filerobot version
+```
+
+### ✔ product
+Product command gives possibility to operate with product ref and product position on files
+
+#### Examples
+
+```bash
+filerobot product
+```
+
+```bash
+filerobot product list
+```
+
+```bash
+filerobot product assets [product referrence]
+```
+
+```bash
+filerobot product assign [uuid] -p 2 -r B012
 ```
 
 ### Advanced Usage
