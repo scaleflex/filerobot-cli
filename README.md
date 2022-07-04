@@ -7,23 +7,12 @@
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Manage%20and%20Accelerate%20your%20images%20and%20Digital%20Assets&url=https://scaleflex.github.io/filerobot-uploader/&via=filerobot&hashtags=uploader,reverse_CDN,image_resizing,image_editor,image_tagging,image_acceleration,image_compression,file_manager,asset_management)
 
 <p align="center">
-	<img
-		height="175"
-		alt="The Lounge"
-		src="https://scaleflex.airstore.io/filerobot/robot-filerobot.png?sanitize=true">
-</p>
-
-<h1 align="center">
-   Filerobot CLI
-</h1>
-
-This CLI provides all the functionality of the Filerobot and all of it's APIs.
-
-<p align="center">
-		<img
-			width="600"
-			alt="Filerobot CLI help"
-			src="https://scaleflex.airstore.io/filerobot/cli/config.png?sanitize=true">
+<a href="https://www.filerobot.com/en/home#gh-dark-mode-only" />
+	<img src="https://assets.scaleflex.com/Marketing/Logos/Filerobot+Logos/Logo+with+Scaleflex/LOGO+WITH+SCALEFLEX+ON+BLACK+BG.png?vh=619469" alt="Filerobot dark mode Logo" width="300px" />
+  </a>
+  <a href="https://www.filerobot.com/en/home#gh-light-mode-only">
+    <img src="https://assets.scaleflex.com/Marketing/Logos/Filerobot+Logos/Logo+with+Scaleflex/LOGO+WITH+SCALEFLEX+ON+WHITE+BG.png?vh=7ae33c" alt="Filerobot white mode Logo" width="300px">
+  </a>
 </p>
 
 
