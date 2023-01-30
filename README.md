@@ -30,9 +30,9 @@ Where "filename.png" is an argument.
 An example of flag to a specific command can be:
 
 ```bash
-filerobot upload filename.png --method=PUT
+filerobot upload filename.png
 ```
-Where "--method" is flag.
+Where "--method" can be added as a flag.
 
 ## Installation
 
@@ -43,7 +43,7 @@ sudo curl -L "https://github.com/scaleflex/filerobot-cli/releases/latest/downloa
 
 ### Linux 
 ```bash
-sudo curl -L "https://github.com/scaleflex/filerobot-cli/releases/latest/download/filerobot-cli-linux-x86_64" -o /usr/local/bin/filerobot && sudo chmod +x /usr/local/bin/filerobot
+sudo curl -L "https://github.com/scaleflex/filerobot-cli/releases/latest/download/filerobot-cli-linux-x86_64.uu" -o /usr/local/bin/filerobot && sudo chmod +x /usr/local/bin/filerobot
 ```
 
 ## Alias
@@ -111,13 +111,13 @@ filerobot config --token=mytoken --key=mysupersecretkey
 ```
 
 ### ✔ upload
-Upload command is used to upload file to the Filerobot store. There are two types of uploading with POST and PUT requests.
+Upload command is used to upload file to the Filerobot store.
 
 #### Arguments
 - filename - the name of the file that will be uploaded
 
 #### Flags
-- method - type of request POST or PUT, if it's not set default is POST.
+- method - type of request POST or PUT (deprecated), if it's not set default is POST.
 - folder - location where the file will be uploaded, if it's not set default is "/".
 - postprocess - type of postprocess that will be included, if it's not set postprocess will not be added.
 
@@ -128,11 +128,7 @@ filerobot upload face.png
 ```
 
 ```bash
-filerobot upload face.png --method=PUT
-```
-
-```bash
-filerobot upload face.png --method=PUT --folder=/test
+filerobot upload face.png  --folder=/test
 ```
 
 ```bash
